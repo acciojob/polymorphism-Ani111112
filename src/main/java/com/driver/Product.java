@@ -7,7 +7,7 @@ public class Product {
     public Product(int x, int y) {
         this.x = x;
         this.y = y;
-        this.z = x + y;
+        this.z = this.x + this.y;
     }
     void getInt(){
         System.out.println(this.z);
@@ -16,7 +16,7 @@ public class Product {
     public Product(double a, double b) {
         this.a = a;
         this.b = b;
-        this.c = a + b;
+        this.c = this.a + this.b;
     }
     void getDouble(){
         System.out.println(this.c);
