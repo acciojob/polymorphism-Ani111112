@@ -1,24 +1,14 @@
 package com.driver;
 
 public class Product {
-    int x, y, z;
-    double a, b, c;
-
-    public Product(int x, int y) {
-        this.x = x;
-        this.y = y;
-        this.z = this.x + this.y;
+    public int product(int x, int y){
+        return x * y;
     }
-    void getInt(){
-        System.out.println(this.z);
+    public int puduct(int x, int y, int z){
+        return x * y * z;
+    }
+    public double product(double a, double b){
+        return a * b;
     }
 
-    public Product(double a, double b) {
-        this.a = a;
-        this.b = b;
-        this.c = this.a + this.b;
-    }
-    void getDouble(){
-        System.out.println(this.c);
-    }
 }
